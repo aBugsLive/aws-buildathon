@@ -1,0 +1,7 @@
+{
+  "buildCommand": "npm run build:static",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
+  "framework": "vite",
+  "rewrites": [{ "source": "/((?!data/).*)", "destination": "/index.html" }]
+}
